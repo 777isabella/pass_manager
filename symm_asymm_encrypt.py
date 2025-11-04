@@ -210,7 +210,7 @@ class AsymmetricEncryption:
                 name = input("Enter key pair name: ")
                 self.generate_keys(name)
             case "2":
-                public_key = input("Enter private key filename: ")
+                public_key = input("Enter public key filename: ")
                 symm_key = input("Enter symmetric key filename: ")
                 self.encrypt_key(public_key, symm_key)
             case "3":
